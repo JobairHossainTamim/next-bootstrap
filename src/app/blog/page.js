@@ -24,7 +24,7 @@ const Blog = async () => {
                         products.map((product) => {
                             return (
                                 <div className='col-lg-4 mb-4 ' key={product.id}>
-                                    <Card className="mb-2" title={product.title} price={product.price} category={product.category} thumbnail={product.thumbnail}></Card>
+                                    <Card className="mb-2" title={product.title} id={product.id} price={product.price} category={product.category} thumbnail={product.thumbnail}></Card>
                                 </div>)
 
                         })

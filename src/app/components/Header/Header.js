@@ -16,10 +16,10 @@ export const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="link">About</Nav.Link>
-              <Nav.Link href="link">Service</Nav.Link>
+              <Nav.Link href="/product">Product</Nav.Link>
+              <Nav.Link href="/quotes">Quotes</Nav.Link>
               <Nav.Link href="/blog">Blog</Nav.Link>
-              <Nav.Link href="link">content</Nav.Link>
+              <Nav.Link href="/popular">Popular</Nav.Link>
 
             </Nav>
           </Navbar.Collapse>

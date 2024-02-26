@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 
-const Card = ({ title, price, category, thumbnail }) => {
+const Card = ({ id, title, price, category, thumbnail }) => {
     return (
         <div className="card" style={{ width: "18rem" }}>
             <Image height={160} width={60} src={thumbnail} alt="dd" className="card-img-top"></Image>
@@ -11,7 +11,7 @@ const Card = ({ title, price, category, thumbnail }) => {
                 <p className="card-title">{title}</p>
                 <p className="card-text">{price}</p>
                 <p className="card-text">{category}</p>
-                <Link href="/" className="btn btn-primary">Go Somewhere</Link>
+                <Link href={`/blog/${id}`} className="btn btn-primary">Details</Link>
             </div>
 
         </div>
